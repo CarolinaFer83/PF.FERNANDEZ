@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+
+header {
+  height: 15vh;
+  background-color: #225d42;
+}
+
+main {
+  height: 80vh;
+  width: 100%;
+  text-decoration: none;
+}
+
+footer {
+  height: 5vh;
+}
+
+#logo {
+  color:#225d42  ;
+  font-size: 2rem;
+  margin-left: 4%;
+}
+nav ul li {
+  display: inline-block;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #000000;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+#productos > div {
+  transition: transform 2s;
+}
+
+#productos > div:hover {
+  transform: scale(1.2);
+}
+
+
+
+main .texto-contenedor {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+main img #productos {
+  width: 1200px;
+  height: 350px;
+  margin-left: 350px;
+  border-radius: 12px;
+  border-width: 2px;
+}
+
+main img #pago {
+  width: 1200px;
+  text-align: justify;
+  margin-left: 350px;
+  border: 1px solid black;
+  border-radius: 12px;
+  border-width: 2px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #F9E8FA;
+}
+.footer bg {
+  background-color: #225d42;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 10px;
+  }
+}
+
+
+

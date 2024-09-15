@@ -1,0 +1,15 @@
+.carousel-item
+  #carouselExample {
+    width: 4%8;  /* Ajusta el ancho */
+    height: 200px; /* Ajusta la altura */
+    margin: 0 auto; /* Centrar el carrusel */
+  }
+
+  
+.carousel-item img {
+    width: 100%; /* Mantener el ancho del carrusel */
+    height: 100%; /* Adaptar la altura */
+    object-fit: cover;
+} 
+ 
+
